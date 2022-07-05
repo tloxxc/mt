@@ -79,7 +79,7 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "clan://AcatTV/box/bc.json");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;
@@ -308,9 +308,9 @@ public class ApiConfig {
             th.printStackTrace();
         }
         // 广告地址
-        for (JsonElement host : infoJson.getAsJsonArray("ads")) {
-            AdBlocker.addAdHost(host.getAsString());
-        }
+        //for (JsonElement host : infoJson.getAsJsonArray("ads")) {
+          //  AdBlocker.addAdHost(host.getAsString());
+        //}
         // IJK解码配置
         boolean foundOldSelect = false;
         String ijkCodec = Hawk.get(HawkConfig.IJK_CODEC, "");

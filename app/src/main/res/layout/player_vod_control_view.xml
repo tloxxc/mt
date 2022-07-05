@@ -33,8 +33,8 @@
                 android:layout_marginRight="@dimen/vs_5"
                 android:paddingRight="@dimen/vs_10"
                 android:text="播放"
-                android:textColor="@color/color_CC000000"
-                android:textSize="@dimen/ts_24" />
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/ts_26" />
 
             <TextView
                 android:id="@+id/play_next"
@@ -42,12 +42,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/vs_5"
                 android:layout_marginRight="@dimen/vs_5"
-                android:background="@drawable/button_dialog_main"
+                android:background="@drawable/button_dialog_main2"
                 android:focusable="true"
                 android:padding="@dimen/vs_10"
                 android:text="下一集"
                 android:textColor="@android:color/white"
-                android:textSize="@dimen/ts_24" />
+                android:textSize="@dimen/ts_26" />
 
             <TextView
                 android:id="@+id/play_pre"
@@ -55,12 +55,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/vs_5"
                 android:layout_marginRight="@dimen/vs_5"
-                android:background="@drawable/button_dialog_main"
+                android:background="@drawable/button_dialog_main2"
                 android:focusable="true"
                 android:padding="@dimen/vs_10"
                 android:text="上一集"
                 android:textColor="@android:color/white"
-                android:textSize="@dimen/ts_24" />
+                android:textSize="@dimen/ts_26" />
 
             <TextView
                 android:id="@+id/play_retry"
@@ -68,12 +68,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/vs_5"
                 android:layout_marginRight="@dimen/vs_5"
-                android:background="@drawable/button_dialog_main"
+                android:background="@drawable/button_dialog_main2"
                 android:focusable="true"
                 android:padding="@dimen/vs_10"
                 android:text="重播本集"
                 android:textColor="@android:color/white"
-                android:textSize="@dimen/ts_24" />
+                android:textSize="@dimen/ts_26" />
 
             <TextView
                 android:id="@+id/play_scale"
@@ -81,12 +81,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/vs_5"
                 android:layout_marginRight="@dimen/vs_5"
-                android:background="@drawable/button_dialog_main"
+                android:background="@drawable/button_dialog_main2"
                 android:focusable="true"
                 android:padding="@dimen/vs_10"
                 android:text="16:9"
                 android:textColor="@android:color/white"
-                android:textSize="@dimen/ts_24" />
+                android:textSize="@dimen/ts_26" />
 
             <TextView
                 android:id="@+id/play_speed"
@@ -94,12 +94,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/vs_5"
                 android:layout_marginRight="@dimen/vs_5"
-                android:background="@drawable/button_dialog_main"
+                android:background="@drawable/button_dialog_main2"
                 android:focusable="true"
                 android:padding="@dimen/vs_10"
                 android:text="x1.0"
                 android:textColor="@android:color/white"
-                android:textSize="@dimen/ts_24" />
+                android:textSize="@dimen/ts_26" />
 
             <TextView
                 android:id="@+id/play_player"
@@ -107,12 +107,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/vs_5"
                 android:layout_marginRight="@dimen/vs_5"
-                android:background="@drawable/button_dialog_main"
+                android:background="@drawable/button_dialog_main2"
                 android:focusable="true"
                 android:padding="@dimen/vs_10"
                 android:text="系统播放器"
                 android:textColor="@android:color/white"
-                android:textSize="@dimen/ts_24" />
+                android:textSize="@dimen/ts_26" />
 
             <TextView
                 android:id="@+id/play_ijk"
@@ -120,12 +120,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/vs_5"
                 android:layout_marginRight="@dimen/vs_5"
-                android:background="@drawable/button_dialog_main"
+                android:background="@drawable/button_dialog_main2"
                 android:focusable="true"
                 android:padding="@dimen/vs_10"
                 android:text="硬解码"
                 android:textColor="@android:color/white"
-                android:textSize="@dimen/ts_24" />
+                android:textSize="@dimen/ts_26" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -134,8 +134,8 @@
                 android:layout_marginRight="@dimen/vs_5"
                 android:padding="@dimen/vs_10"
                 android:text="片头片尾"
-                android:textColor="@color/color_CC000000"
-                android:textSize="@dimen/ts_24" />
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/ts_26" />
 
             <TextView
                 android:id="@+id/play_time_start"
@@ -143,12 +143,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/vs_5"
                 android:layout_marginRight="@dimen/vs_5"
-                android:background="@drawable/button_dialog_main"
+                android:background="@drawable/button_dialog_main2"
                 android:focusable="true"
                 android:padding="@dimen/vs_10"
                 android:text="01:00"
                 android:textColor="@android:color/white"
-                android:textSize="@dimen/ts_24" />
+                android:textSize="@dimen/ts_26" />
 
             <TextView
                 android:id="@+id/play_time_end"
@@ -156,12 +156,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/vs_5"
                 android:layout_marginRight="@dimen/vs_5"
-                android:background="@drawable/button_dialog_main"
+                android:background="@drawable/button_dialog_main2"
                 android:focusable="true"
                 android:padding="@dimen/vs_10"
                 android:text="01:00"
                 android:textColor="@android:color/white"
-                android:textSize="@dimen/ts_24" />
+                android:textSize="@dimen/ts_26" />
 
             <TextView
                 android:id="@+id/play_time_step"
@@ -169,12 +169,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/vs_5"
                 android:layout_marginRight="@dimen/vs_5"
-                android:background="@drawable/button_dialog_main"
+                android:background="@drawable/button_dialog_main2"
                 android:focusable="true"
                 android:padding="@dimen/vs_10"
                 android:text="1S"
                 android:textColor="@android:color/white"
-                android:textSize="@dimen/ts_24" />
+                android:textSize="@dimen/ts_26" />
 
         </LinearLayout>
 
@@ -196,8 +196,8 @@
                 android:layout_marginRight="@dimen/vs_5"
                 android:paddingRight="@dimen/vs_10"
                 android:text="解析"
-                android:textColor="@color/color_CC000000"
-                android:textSize="@dimen/ts_24" />
+                android:textColor="@color/color_FFFFFF"
+                android:textSize="@dimen/ts_26" />
 
             <com.owen.tvrecyclerview.widget.TvRecyclerView
                 android:id="@+id/mGridView"
@@ -224,8 +224,8 @@
                 android:paddingEnd="@dimen/vs_10"
                 android:paddingRight="@dimen/vs_10"
                 android:text="00:00"
-                android:textColor="@color/color_CC000000"
-                android:textSize="@dimen/ts_24" />
+                android:textColor="@color/color_FFFFFF"
+                android:textSize="@dimen/ts_26" />
 
             <SeekBar
                 android:id="@+id/seekBar"
@@ -253,8 +253,8 @@
                 android:paddingStart="@dimen/vs_10"
                 android:paddingLeft="@dimen/vs_10"
                 android:text="00:00"
-                android:textColor="@color/color_CC000000"
-                android:textSize="@dimen/ts_24" />
+                android:textColor="@color/color_FFFFFF"
+                android:textSize="@dimen/ts_26" />
         </LinearLayout>
 
 
@@ -278,7 +278,7 @@
             android:padding="@dimen/vs_20"
             android:text="http://"
             android:textColor="@android:color/white"
-            android:textSize="@dimen/ts_24" />
+            android:textSize="@dimen/ts_26" />
 
         <LinearLayout
             android:layout_width="@dimen/vs_280"
@@ -308,7 +308,7 @@
                 android:focusableInTouchMode="false"
                 android:tag="vod_control_pause_t"
                 android:textColor="@android:color/white"
-                android:textSize="@dimen/ts_30"
+                android:textSize="@dimen/ts_34"
                 tools:text="100" />
         </LinearLayout>
 
@@ -326,7 +326,7 @@
         android:tag="vod_control_slide_info"
         android:textAlignment="gravity"
         android:textColor="@android:color/white"
-        android:textSize="@dimen/ts_30"
+        android:textSize="@dimen/ts_34"
         android:visibility="gone"
         tools:text="100" />
 
@@ -360,7 +360,7 @@
             android:focusable="false"
             android:focusableInTouchMode="false"
             android:textColor="@android:color/white"
-            android:textSize="@dimen/ts_30"
+            android:textSize="@dimen/ts_34"
             tools:text="100" />
 
     </LinearLayout>

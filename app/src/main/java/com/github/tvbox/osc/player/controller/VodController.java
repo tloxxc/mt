@@ -321,8 +321,8 @@ public class VodController extends BaseController {
             @Override
             public void onClick(View view) {
                 int step = Hawk.get(HawkConfig.PLAY_TIME_STEP, 5);
-                step += 5;
-                if (step > 30) {
+                step += 4;
+                if (step > 25) {
                     step = 1;
                 }
                 Hawk.put(HawkConfig.PLAY_TIME_STEP, step);

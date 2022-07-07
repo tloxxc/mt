@@ -79,7 +79,7 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "clan://AcatTV/box/bc.json");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "clan://AcatTV/box/qj.json");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;

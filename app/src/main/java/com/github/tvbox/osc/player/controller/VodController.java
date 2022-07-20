@@ -98,7 +98,6 @@ public class VodController extends BaseController {
     TextView mPlayerTimeStartBtn;
     TextView mPlayerTimeSkipBtn;
     TextView mPlayerTimeStepBtn;
-    TextView mPlayerTimeResetBtn;
 
     @Override
     protected void initView() {
@@ -123,7 +122,6 @@ public class VodController extends BaseController {
         mPlayerTimeStartBtn = findViewById(R.id.play_time_start);
         mPlayerTimeSkipBtn = findViewById(R.id.play_time_end);
         mPlayerTimeStepBtn = findViewById(R.id.play_time_step);
-        mPlayerTimeResetBtn = findViewById(R.id.play_time_reset);
 
         mGridView.setLayoutManager(new V7LinearLayoutManager(getContext(), 0, false));
         ParseAdapter parseAdapter = new ParseAdapter();
@@ -329,15 +327,6 @@ public class VodController extends BaseController {
                 }
                 Hawk.put(HawkConfig.PLAY_TIME_STEP, step);
                 updatePlayerCfgView();
-            }
-        });
-        mPlayerTimeResetBtn.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                mPlayerConfig.put("st", 0);
-                mPlayerConfig.put("et", 0);
-                updatePlayerCfgView();
-                listener.updatePlayerCfg();
             }
         });
     }

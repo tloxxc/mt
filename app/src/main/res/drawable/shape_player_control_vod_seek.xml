@@ -8,14 +8,14 @@
     <item android:id="@android:id/secondaryProgress">
         <clip>
             <shape>
-                <solid android:color="@color/color_CC353744" />
+                <solid android:color="@color/color_4D353744" />
             </shape>
         </clip>
     </item>
     <item android:id="@android:id/progress">
         <clip>
             <shape>
-                <solid android:color="@color/color_353744" />
+                <solid android:color="@color/color_ff0000" />
             </shape>
         </clip>
     </item>

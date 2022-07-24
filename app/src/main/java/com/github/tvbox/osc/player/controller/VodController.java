@@ -287,8 +287,19 @@ public class VodController extends BaseController {
             @Override
          public void onClick(View v) {
             try {
-             mPlayerConfig.put("et", 0);
               mPlayerConfig.put("st", 0);
+             updatePlayerCfgView();
+             listener.updatePlayerCfg();
+              } catch (JSONException e) {
+                e.printStackTrace();
+              }
+            }
+         });
+        findViewById(R.id.play_time_reset2).setOnClickListener(new OnClickListener() {
+            @Override
+         public void onClick(View v) {
+            try {
+              mPlayerConfig.put("et", 0);
              updatePlayerCfgView();
              listener.updatePlayerCfg();
               } catch (JSONException e) {

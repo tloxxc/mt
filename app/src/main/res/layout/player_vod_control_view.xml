@@ -61,7 +61,7 @@
                 android:background="@drawable/button_dialog_main2"
                 android:focusable="true"
                 android:padding="@dimen/vs_10"
-                android:text="重播"
+                android:text="刷新"
                 android:textColor="@android:color/white"
                 android:textSize="@dimen/ts_26" />
 
@@ -126,7 +126,7 @@
                 android:background="@drawable/button_dialog_main2" 
                 android:focusable="true" 
                 android:padding="@dimen/vs_10" 
-                android:text="片头重置"
+                android:text="片头"
                 android:textColor="@android:color/white"  
                 android:textSize="@dimen/ts_26" /> 
 
@@ -152,7 +152,7 @@
                 android:background="@drawable/button_dialog_main2" 
                 android:focusable="true" 
                 android:padding="@dimen/vs_10" 
-                android:text="片尾重置"
+                android:text="片尾"
                 android:textColor="@android:color/white"  
                 android:textSize="@dimen/ts_26" /> 
 

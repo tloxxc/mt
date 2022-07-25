@@ -211,6 +211,18 @@ public class VodController extends BaseController {
                 }
             }
         });
+        findViewById(R.id.play_time_speed2).setOnClickListener(new OnClickListener() {
+            @Override
+         public void onClick(View v) {
+            try {
+             mPlayerConfig.put("sp", 1);
+             updatePlayerCfgView();
+             listener.updatePlayerCfg();
+              } catch (JSONException e) {
+                e.printStackTrace();
+              }
+            }
+         });
         mPlayerSpeedBtn.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {

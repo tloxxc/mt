@@ -211,7 +211,7 @@ public class VodController extends BaseController {
                 }
             }
         });
-        findViewById(R.id.play_time_speed2).setOnClickListener(new OnClickListener() {
+        findViewById(R.id.play_speed2).setOnClickListener(new OnClickListener() {
             @Override
          public void onClick(View v) {
             try {

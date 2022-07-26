@@ -218,7 +218,7 @@ public class VodController extends BaseController {
              mPlayerConfig.put("sp", 1);
              updatePlayerCfgView();
              listener.updatePlayerCfg();
-             mControlWrapper.setSpeed(speed);
+             mControlWrapper.setSpeed(1);
               } catch (JSONException e) {
                 e.printStackTrace();
               }

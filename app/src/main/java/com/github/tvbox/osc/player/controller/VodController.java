@@ -215,7 +215,7 @@ public class VodController extends BaseController {
             @Override
          public void onClick(View v) {
             try {
-             mPlayerConfig.put("sp", 1);
+             mPlayerConfig.put("speed", 1);
              updatePlayerCfgView();
              listener.updatePlayerCfg();
               } catch (JSONException e) {
